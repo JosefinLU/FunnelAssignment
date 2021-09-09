@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="FunnelAssignment:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/FunnelAssignment_jar</output-path>
+    <root id="archive" name="FunnelAssignment.jar">
+      <element id="module-output" name="FunnelAssignment" />
+    </root>
+  </artifact>
+</component>
