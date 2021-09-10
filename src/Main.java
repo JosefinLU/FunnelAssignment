@@ -84,12 +84,12 @@ public class Main {
             }
         }
 
-        // string - key = url, List of string = userids - we are creating new arralist for EVERY new url, contact has one list
-        // FIRST here, where we declar the hashMap it is empty [ : ]
+        // string - key = url, List of string = userids - we are creating new arraylist for EVERY new url, contact has one list
+        // FIRST here, where we declair the hashMap it is empty [ : ]
         HashMap<String, ArrayList<String>> urlVisits = new HashMap<>();
         for (Event event: events) {
             // here we are looking for the value for this key(urlVisits.get(event.url), the first time their is no value so we continue and createing a new list of userIds
-            ArrayList<String> userIds = urlVisits.get(event.url);
+            ArrayList<String> userIds = urlVisits.get(event.url); // getting the VALUE for the key url(contact.html) (HASHMAP!), first time there is NO value! se we create a new list of values)
             if (userIds == null) {
                 userIds = new ArrayList<String>();
             }
